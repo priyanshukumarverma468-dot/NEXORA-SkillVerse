@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+
+# Local build/test output
+build/
+dist/
+.pytest_cache/
+.coverage
